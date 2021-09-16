@@ -1,0 +1,8 @@
+.main{
+    @apply p-4;
+    @apply flex-grow;
+
+    .container{
+        @apply mx-auto;
+    }
+}
