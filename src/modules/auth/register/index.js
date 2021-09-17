@@ -33,17 +33,17 @@ export function AuthRegister() {
             </select>
           </div>
           <div>
-            <label>Sexo</label>
-            <div className="flex items-center">
+            <label className="block mb-2">Sexo</label>
+            <div className="flex items-center py-4">
               <label className="flex items-center mr-4 cursor-pointer">
                 <input name="sex" className="mr-2 cursor-pointer" type="radio"
                 />
-                <span className="font-bold">F</span>
+                <span className="font-bold">Femenino</span>
               </label>
-              <label className="flex items-center cursor-pointer">
+              <label className="flex items-center cursor-pointer px-2">
                 <input name="sex" className="mr-2 cursor-pointer" type="radio"
                 />
-                <span className="font-bold">M</span>
+                <span className="font-bold">Masculino</span>
               </label>
             </div>
           </div>
