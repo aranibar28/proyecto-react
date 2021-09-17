@@ -22,8 +22,7 @@ export function Dropdown(props) {
           {links.map((link, id) => (
             <li key={id}>
               <Link to={`${link.url}`} onClick={() => setToggle(!toggle)}>
-                {" "}
-                {link.text}{" "}
+                {link.text}
               </Link>
             </li>
           ))}

@@ -2,10 +2,12 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect,
+  /* Redirect, */
 } from "react-router-dom";
 import { Header, Footer, Main } from "components";
 import { AuthRegister, AuthLogin } from "modules/auth";
+import { Home } from "modules/home";
+import { NotFound } from "modules/notfound";
 export function App() {
   return (
     <Router>
@@ -19,7 +21,13 @@ export function App() {
             <Route path="/register">
               <AuthRegister />
             </Route>
-            <Redirect from="/" to="/login" />
+            <Route path="/home">
+              <Home />
+            </Route>
+            {/* <Redirect from="*" to="/login" /> */}
+            <Route path="*">
+              <NotFound />
+            </Route>
           </Switch>
         </Main>
         <Footer />
