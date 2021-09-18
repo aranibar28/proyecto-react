@@ -30,5 +30,29 @@
       "name": "Clara",
       "lastname": "Concha Riquelme"
     }
+  ],
+  "usersRegister": [
+    {
+      "id": 1,
+      "user": "admin",
+      "password": "123",
+      "profile": {
+        "name": "Sebastian",
+        "lastname": "Yabiku",
+        "age": 32,
+        "sex": "m"
+      }
+    },
+    {
+      "id": 2,
+      "user": "empleado",
+      "password": "123",
+      "profile": {
+        "name": "Don Pepe",
+        "lastname": "Yabiku",
+        "age": 24,
+        "sex": "m"
+      }
+    }
   ]
 }

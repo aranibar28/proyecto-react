@@ -1,0 +1,14 @@
+.footer {
+  @apply p-4;
+  @apply bg-green-300;
+}
+
+.footer .container {
+  @apply mx-auto;
+  @apply text-center;
+}
+
+.footer p {
+  @apply text-white;
+}
+/*# sourceMappingURL=footer.css.map */

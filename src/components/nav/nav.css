@@ -1,0 +1,18 @@
+.nav {
+  @apply bg-blue-200;
+  @apply rounded-full;
+  @apply p-4;
+}
+
+.nav ul {
+  @apply flex;
+}
+
+.nav ul li {
+  @apply ml-4;
+}
+
+.nav ul li:first-child {
+  margin: 0;
+}
+/*# sourceMappingURL=nav.css.map */

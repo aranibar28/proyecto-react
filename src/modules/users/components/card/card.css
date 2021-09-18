@@ -1,0 +1,8 @@
+.card {
+  @apply shadow-xl;
+  height: 200px;
+  @apply flex;
+  @apply justify-center;
+  @apply items-center;
+}
+/*# sourceMappingURL=card.css.map */
