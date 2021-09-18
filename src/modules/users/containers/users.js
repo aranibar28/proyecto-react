@@ -4,7 +4,7 @@ export function Users() {
   //const [count, setCount] = useState(0);
   const [users, setUser] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/users")
+    fetch("http://localhost:3000/users/")
       .then((response) => response.json())
       .then((users) => setUser(users));
   }, []);
@@ -15,7 +15,12 @@ export function Users() {
       <div className="grid grid-cols-3 gap-8">
         {!!users.length &&
           users.map((user, id) => (
-            <Card key={id} name={user.name} lastname={user.lastname} />
+            <Card
+              key={id}
+              id={user.id}
+              name={user.name}
+              lastname={user.lastname}
+            />
           ))}
       </div>
     </div>

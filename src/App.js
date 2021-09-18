@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import { Header, Footer, Main } from "components";
 import { AuthRegister, AuthLogin } from "modules/auth";
-import { Users } from "modules/users/containers/users";
+import { Users, UsersUserDetail } from "modules/users/containers";
 import { NotFound } from "modules/notfound";
 export function App() {
   return (
@@ -21,8 +21,11 @@ export function App() {
             <Route path="/register">
               <AuthRegister />
             </Route>
-            <Route path="/users">
+            <Route exact path="/users">
               <Users />
+            </Route>
+            <Route path="/users/:id">
+              <UsersUserDetail />
             </Route>
             {/* <Redirect from="*" to="/login" /> */}
             <Route path="*">
