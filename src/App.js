@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import { Header, Footer, Main } from "components";
 import { AuthRegister, AuthLogin } from "modules/auth";
-import { Users } from "modules/users";
+import { Users } from "modules/users/containers/users";
 import { NotFound } from "modules/notfound";
 export function App() {
   return (

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Card } from "../components";
 export function Users() {
   //const [count, setCount] = useState(0);
   const [users, setUser] = useState([]);
@@ -10,15 +11,13 @@ export function Users() {
 
   return (
     <div>
-      {console.log("users", users)}
-      {!!users.length &&
-        users.map((user, id) => (
-          <ul key={id}>
-            <li>
-              {user.name}, {user.lastname}
-            </li>
-          </ul>
-        ))}
+      <h1 className="font-bold text-center p-5">USUARIOS</h1>
+      <div className="grid grid-cols-3 gap-8">
+        {!!users.length &&
+          users.map((user, id) => (
+            <Card key={id} name={user.name} lastname={user.lastname} />
+          ))}
+      </div>
     </div>
   );
 }
