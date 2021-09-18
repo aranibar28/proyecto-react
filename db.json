@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Gerson",
+      "lastname": "Aranibar Concha"
+    },
+    {
+      "id": 2,
+      "name": "Maribel",
+      "lastname": "Aranibar Concha"
+    },
+    {
+      "id": 3,
+      "name": "Vilma",
+      "lastname": "Huañahue Concha"
+    },
+    {
+      "id": 4,
+      "name": "Benjamin",
+      "lastname": "Zavala Aranibar"
+    },
+    {
+      "id": 5,
+      "name": "Adriana",
+      "lastname": "Carmona Huañahue"
+    },
+    {
+      "id": 6,
+      "name": "Clara",
+      "lastname": "Concha Riquelme"
+    }
+  ]
+}
