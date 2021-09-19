@@ -12,8 +12,8 @@ export function Header() {
   return (
     <header className="header">
       <div className="container">
-        <Link to="/users" className="header__logo">
-          LOGO
+        <Link to="../users" className="header__logo">
+          <img src="../logo-white.png" alt="logo" />
         </Link>
         <div className="flex items-center">
           <Nav />

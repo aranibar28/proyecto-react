@@ -1,13 +1,21 @@
 .footer {
-  @apply p-4;
-  background-color: #F73C24;
+  @apply text-white;
+  @apply mx-auto;
 
-  .container {
-    @apply mx-auto;
-    @apply text-center;
+  .footer-top {
+    @apply bg-gray-900;
+    @apply grid grid-cols-3 gap-8;
+    @apply p-8;
+
+    li{
+      @apply leading-10;
+    }
+
   }
 
-  p {
-    @apply text-white;
+  .footer-bottom {
+    @apply bg-black;
+    @apply flex justify-between;
+    @apply p-8;
   }
 }
