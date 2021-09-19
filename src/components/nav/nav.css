@@ -1,6 +1,6 @@
 .nav {
-  @apply bg-blue-200;
-  @apply rounded-full;
+  background-color: white;
+  @apply rounded-xl;
   @apply p-4;
 }
 

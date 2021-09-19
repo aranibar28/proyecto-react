@@ -14,6 +14,7 @@ export function AuthLogin() {
 
   function existUser(users, usserLogged) {
     const currentUser = users.filter((data) => data.user === usserLogged.user);
+
     return new Promise((resolve, reject) => {
       !!currentUser.length
         ? resolve(currentUser[0])
@@ -27,15 +28,16 @@ export function AuthLogin() {
       .then((users) => {
         return existUser(users, userLogged);
       })
-
       .then((user) => {
         alert(`Bienvenido ${user.profile.name}`);
+        console.log("user", user);
+        localStorage.setItem("user", JSON.stringify(user));
+        window.location.reload();
       })
       .catch((error) => {
         console.log("error", error);
         alert("El usuario no Existe");
       });
-
     //console.log("data", data);
   };
   return (

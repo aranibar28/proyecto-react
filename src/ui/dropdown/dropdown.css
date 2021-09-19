@@ -7,5 +7,6 @@
   @apply absolute;
   @apply p-4;
   @apply rounded-xl;
+  @apply w-full;
 }
 /*# sourceMappingURL=dropdown.css.map */

@@ -37,8 +37,8 @@
       "user": "admin",
       "password": "123",
       "profile": {
-        "name": "Sebastian",
-        "lastname": "Yabiku",
+        "name": "Gerson",
+        "lastname": "Aranibar",
         "age": 32,
         "sex": "m"
       }
@@ -48,7 +48,7 @@
       "user": "empleado",
       "password": "123",
       "profile": {
-        "name": "Don Pepe",
+        "name": "Sebastian",
         "lastname": "Yabiku",
         "age": 24,
         "sex": "m"

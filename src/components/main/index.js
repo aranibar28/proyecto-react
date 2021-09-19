@@ -4,7 +4,7 @@ export function Main(props) {
 
   return (
     <main className="main">
-      <div className="container">{children}</div>
+      <div className="container mx-auto">{children}</div>
     </main>
   );
 }
