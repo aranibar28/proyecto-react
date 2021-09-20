@@ -3,32 +3,32 @@
     {
       "id": 1,
       "name": "Gerson",
-      "lastname": "Aranibar Concha"
+      "lastname": "Aranibar"
     },
     {
       "id": 2,
       "name": "Maribel",
-      "lastname": "Aranibar Concha"
+      "lastname": "Aranibar"
     },
     {
       "id": 3,
       "name": "Vilma",
-      "lastname": "Huañahue Concha"
+      "lastname": "Huañahue"
     },
     {
       "id": 4,
       "name": "Benjamin",
-      "lastname": "Zavala Aranibar"
+      "lastname": "Zavala"
     },
     {
       "id": 5,
       "name": "Adriana",
-      "lastname": "Carmona Huañahue"
+      "lastname": "Carmona"
     },
     {
       "id": 6,
       "name": "Clara",
-      "lastname": "Concha Riquelme"
+      "lastname": "Riquelme"
     }
   ],
   "usersRegister": [
