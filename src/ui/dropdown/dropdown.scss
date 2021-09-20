@@ -1,4 +1,7 @@
 .dropdown {
+  @apply bg-green-50;
+  @apply rounded-xl;
+  @apply p-4;
   @apply relative;
 
   ul {

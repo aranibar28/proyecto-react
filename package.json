@@ -49,6 +49,7 @@
     "autoprefixer": "^9.8.6",
     "json-server": "^0.16.3",
     "postcss": "^7.0.36",
+    "stylelint-config-recommended": "^5.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
   }
 }

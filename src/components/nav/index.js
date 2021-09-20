@@ -2,7 +2,11 @@ import "./nav.scss";
 export function Nav() {
   const links = [
     {
-      text: "Home",
+      text: "Inicio",
+      url: "http://",
+    },
+    {
+      text: "Páginas",
       url: "http://",
     },
     {
@@ -10,7 +14,7 @@ export function Nav() {
       url: "http://",
     },
     {
-      text: "Portafolio",
+      text: "Trainers",
       url: "http://",
     },
     {
